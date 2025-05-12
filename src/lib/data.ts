@@ -39,7 +39,7 @@ export const headsets: Headset[] = [
       controllers: "Controles Touch Plus",
       price: "€499.99",
     },
-    officialWebsite: "",
+    officialWebsite: "https://www.meta.com/es/quest/quest-3/",
   },
   {
     id: "index",
@@ -58,7 +58,7 @@ export const headsets: Headset[] = [
       controllers: "Controles Index Knuckle",
       price: "€999.99",
     },
-    officialWebsite: "",
+    officialWebsite: "https://store.steampowered.com/valveindex",
   },
   {
     id: "vive-pro-2",
@@ -77,7 +77,7 @@ export const headsets: Headset[] = [
       controllers: "Controles Vive",
       price: "€799.99",
     },
-    officialWebsite: "",
+    officialWebsite: "https://myshop.vive.com/vive_es/pcvr/pro-2.html",
   },
   {
     id: "psvr-2",
@@ -96,7 +96,7 @@ export const headsets: Headset[] = [
       controllers: "Controles PSVR 2 Sense",
       price: "€549.99",
     },
-    officialWebsite: "",
+    officialWebsite: "https://www.playstation.com/es-es/ps-vr2/",
   },
   {
     id: "reverb-g2",
@@ -114,7 +114,7 @@ export const headsets: Headset[] = [
       controllers: "Controles de Movimiento HP",
       price: "€599.99",
     },
-    officialWebsite: "",
+    officialWebsite: "https://www.hp.com/es-es/shop/offer.aspx?p=hp-reverb-g2-vr-headset",
   },
   {
     id: "pimax-crystal",
@@ -132,6 +132,6 @@ export const headsets: Headset[] = [
       controllers: "Controles Pimax Sword",
       price: "€1,899.99",
     },
-    officialWebsite: "",
+    officialWebsite: "https://www.amazon.es/Pimax-Crystal-Resoluci%C3%B3n-5760x2880-Cristalino/dp/B0BZSGFLQ7?th=1",
   },
 ];

@@ -36,7 +36,7 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl -z-10"></div>
             <div className="absolute inset-0 flex items-center justify-center">
               <img 
-                src="https://placehold.co/800x600/1a1f2c/FFFFFF?text=Auricular+VR" 
+                src="https://s3.abcstatics.com/media/favorito/2021/12/22/gafas-realidad-virtual-U57065626363JTq-1248x698@abc.jpeg" 
                 alt="Gafas VR" 
                 className="max-w-full max-h-full object-contain"
               />

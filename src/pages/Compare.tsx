@@ -110,7 +110,7 @@ const Compare = () => {
             <Table className="futuristic-border">
               <TableHeader>
                 <TableRow>
-                  <TableHead className="w-[160px] font-future">Specification</TableHead>
+                  <TableHead className="w-[160px] font-future">Especificaciones</TableHead>
                   {selectedHeadsets.map((headset) => (
                     <TableHead key={headset.id} className="text-center min-w-[200px] font-future">
                       <div className="flex flex-col items-center">
@@ -130,7 +130,7 @@ const Compare = () => {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="font-medium">Resolution</TableCell>
+                  <TableCell className="font-medium">Resolución</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center">
                       {headset.specs.resolution}
@@ -138,7 +138,7 @@ const Compare = () => {
                   ))}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">Refresh Rate</TableCell>
+                  <TableCell className="font-medium">Freceuncia de Refresco</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center">
                       {headset.specs.refreshRate}
@@ -146,7 +146,7 @@ const Compare = () => {
                   ))}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">Field of View</TableCell>
+                  <TableCell className="font-medium">Campo de Vision</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center">
                       {headset.specs.fov}
@@ -154,7 +154,7 @@ const Compare = () => {
                   ))}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">Weight</TableCell>
+                  <TableCell className="font-medium">Peso</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center">
                       {headset.specs.weight}
@@ -162,7 +162,7 @@ const Compare = () => {
                   ))}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">Tracking</TableCell>
+                  <TableCell className="font-medium">Rastreo</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center">
                       {headset.specs.tracking}
@@ -170,7 +170,7 @@ const Compare = () => {
                   ))}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">Controllers</TableCell>
+                  <TableCell className="font-medium">Controles</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center">
                       {headset.specs.controllers}
@@ -178,7 +178,7 @@ const Compare = () => {
                   ))}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">Price</TableCell>
+                  <TableCell className="font-medium">Precio</TableCell>
                   {selectedHeadsets.map((headset) => (
                     <TableCell key={headset.id} className="text-center font-bold">
                       {headset.specs.price}

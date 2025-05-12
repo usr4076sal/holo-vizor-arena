@@ -7,7 +7,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-future text-xl font-bold gradient-text">FuturoVR</span>
+          <span className="font-future text-xl font-bold gradient-text">HoloVizor</span>
         </Link>
         
         <nav className="hidden md:flex items-center gap-6">

@@ -14,7 +14,7 @@ export function HeroSection() {
           </h1>
           
           <p className="text-lg md:text-xl text-foreground/80 max-w-lg">
-            Descubre las gafas de RV VR de vanguardia que te transportan a nuevas dimensiones con inmersión y claridad inigualables.
+            Descubre las gafas de VR de vanguardia que te transportan a nuevas dimensiones con inmersión y claridad inigualables.
           </p>
           
           <div className="flex flex-wrap gap-4 mt-4">

@@ -14,16 +14,16 @@ const Index = () => {
         <section className="py-16 bg-muted/50">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Compare?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">¿Listo para Comparar?</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Find the perfect VR headset for your needs by comparing specs, features, and prices.
+                Encuentra el auricular VR perfecto para tus necesidades comparando especificaciones, características y precios.
               </p>
               <div className="inline-block">
                 <a 
                   href="/compare" 
                   className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-future transition-all"
                 >
-                  Compare All Headsets
+                  Comparar Todos los Auriculares
                 </a>
               </div>
             </div>

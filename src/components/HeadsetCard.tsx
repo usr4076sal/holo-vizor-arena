@@ -2,7 +2,7 @@
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Headset } from "@/lib/data";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface HeadsetCardProps {
@@ -22,7 +22,7 @@ export function HeadsetCard({ headset, featured = false }: HeadsetCardProps) {
           />
           {featured && (
             <div className="absolute top-2 right-2 bg-primary text-primary-foreground text-xs px-2 py-1 rounded-full font-future">
-              Featured
+              Destacado
             </div>
           )}
         </div>
@@ -35,13 +35,23 @@ export function HeadsetCard({ headset, featured = false }: HeadsetCardProps) {
         <h3 className="text-xl font-bold mb-2 font-future">{headset.name}</h3>
         <p className="text-sm text-muted-foreground">{headset.description}</p>
       </CardContent>
-      <CardFooter className="p-4 pt-0">
+      <CardFooter className="p-4 pt-0 flex flex-col gap-2">
         <Button asChild variant="ghost" className="w-full group">
           <Link to={`/compare?selected=${headset.id}`}>
-            View Details
+            Ver Detalles
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </Button>
+        
+        {/* Espacio para el enlace al sitio web oficial */}
+        <a 
+          href={`#${headset.id}-website`} 
+          className="text-sm text-secondary flex items-center justify-center gap-1 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sitio Oficial <ExternalLink className="h-3 w-3" />
+        </a>
       </CardFooter>
     </Card>
   );

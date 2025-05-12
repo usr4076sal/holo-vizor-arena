@@ -9,24 +9,24 @@ export function HeroSection() {
       <div className="container mx-auto px-4 h-full flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="w-full md:w-1/2 flex flex-col gap-6 animate-fade-in">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-            Experience The
-            <span className="gradient-text block"> Future of Reality</span>
+            Experimenta El
+            <span className="gradient-text block">Futuro de la Realidad</span>
           </h1>
           
           <p className="text-lg md:text-xl text-foreground/80 max-w-lg">
-            Discover cutting-edge VR headsets that transport you to new dimensions with unparalleled immersion and clarity.
+            Descubre auriculares VR de vanguardia que te transportan a nuevas dimensiones con inmersión y claridad inigualables.
           </p>
           
           <div className="flex flex-wrap gap-4 mt-4">
             <Button asChild size="lg" className="group">
               <Link to="/compare">
-                Compare Headsets
+                Comparar Auriculares
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
             
             <Button variant="outline" size="lg">
-              Learn More
+              Saber Más
             </Button>
           </div>
         </div>
@@ -36,8 +36,8 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl -z-10"></div>
             <div className="absolute inset-0 flex items-center justify-center">
               <img 
-                src="https://placehold.co/800x600/1a1f2c/FFFFFF?text=VR+Headset" 
-                alt="VR Headset" 
+                src="https://placehold.co/800x600/1a1f2c/FFFFFF?text=Auricular+VR" 
+                alt="Auricular VR" 
                 className="max-w-full max-h-full object-contain"
               />
             </div>

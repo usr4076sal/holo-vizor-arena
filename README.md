@@ -15,3 +15,6 @@ Támbien hay un boton para cambiar entre modo noche y modo día.
 - React
 - shadcn-ui
 - Tailwind CSS
+
+/////
+Intente añadir links a las paginas oficiales de cada gafa pero no funcionan.

@@ -14,13 +14,13 @@ export function HeroSection() {
           </h1>
           
           <p className="text-lg md:text-xl text-foreground/80 max-w-lg">
-            Descubre auriculares VR de vanguardia que te transportan a nuevas dimensiones con inmersión y claridad inigualables.
+            Descubre las gafas de RV VR de vanguardia que te transportan a nuevas dimensiones con inmersión y claridad inigualables.
           </p>
           
           <div className="flex flex-wrap gap-4 mt-4">
             <Button asChild size="lg" className="group">
               <Link to="/compare">
-                Comparar Auriculares
+                Comparar Gafas
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
@@ -37,7 +37,7 @@ export function HeroSection() {
             <div className="absolute inset-0 flex items-center justify-center">
               <img 
                 src="https://placehold.co/800x600/1a1f2c/FFFFFF?text=Auricular+VR" 
-                alt="Auricular VR" 
+                alt="Gafas VR" 
                 className="max-w-full max-h-full object-contain"
               />
             </div>

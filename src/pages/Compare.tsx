@@ -54,15 +54,15 @@ const Compare = () => {
       <main className="container mx-auto px-4 pt-24">
         <div className="text-center mb-10">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="gradient-text">Compare</span> VR Headsets
+            <span className="gradient-text">Compara</span> gafas Vr
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Compare specifications, features and prices of different VR headsets to find the perfect one for your needs.
+            Compara especificaciones, caracteristicas y precios de diferentes gafas de VR para encontrar las perfectas para tus necesidades.
           </p>
         </div>
         
         <div className="mb-10">
-          <h2 className="text-xl font-bold mb-4">Select Headsets to Compare</h2>
+          <h2 className="text-xl font-bold mb-4">Selecciona gafas a comparar</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {(showAllHeadsets ? headsets : headsets.slice(0, 6)).map((headset) => (
               <div
@@ -191,7 +191,7 @@ const Compare = () => {
         ) : (
           <div className="text-center py-10">
             <p className="text-lg text-muted-foreground">
-              Select at least one headset to compare.
+              Seleccione al menos una gafa a comparar.
             </p>
           </div>
         )}

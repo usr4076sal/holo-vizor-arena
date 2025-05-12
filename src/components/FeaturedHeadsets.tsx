@@ -13,7 +13,7 @@ export function FeaturedHeadsets() {
             Auriculares <span className="gradient-text">VR Populares</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Descubre los auriculares de realidad virtual más populares que están revolucionando la forma en que experimentamos los mundos digitales.
+            Descubre las gafas de realidad virtual más populares que están revolucionando la forma en que experimentamos los mundos digitales.
           </p>
         </div>
         

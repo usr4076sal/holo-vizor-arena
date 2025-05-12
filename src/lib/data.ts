@@ -26,8 +26,8 @@ export const headsets: Headset[] = [
     name: "Quest 3",
     brand: "Meta",
     image: "https://placehold.co/500x300/1a1f2c/FFFFFF?text=Meta+Quest+3",
-    description: "El último auricular VR independiente de Meta con capacidades de realidad mixta y controles avanzados.",
-    price: "$499.99",
+    description: "La última gafa VR independiente de Meta con capacidades de realidad mixta y controles avanzados.",
+    price: "€499.99",
     featured: true,
     specs: {
       resolution: "2064 × 2208 por ojo",
@@ -36,7 +36,7 @@ export const headsets: Headset[] = [
       weight: "515g",
       tracking: "Inside-out, 6DoF",
       controllers: "Controles Touch Plus",
-      price: "$499.99",
+      price: "€499.99",
     },
   },
   {
@@ -44,8 +44,8 @@ export const headsets: Headset[] = [
     name: "Valve Index",
     brand: "Valve",
     image: "https://placehold.co/500x300/1a1f2c/FFFFFF?text=Valve+Index",
-    description: "Auricular VR premium para PC con controles de seguimiento de dedos y pantallas de alta frecuencia de actualización.",
-    price: "$999.99",
+    description: "Gafas VR premium para PC con controles de seguimiento de dedos y pantallas de alta frecuencia de actualización.",
+    price: "€999.99",
     featured: true,
     specs: {
       resolution: "1440 × 1600 por ojo",
@@ -54,7 +54,7 @@ export const headsets: Headset[] = [
       weight: "809g",
       tracking: "Seguimiento SteamVR 2.0",
       controllers: "Controles Index Knuckle",
-      price: "$999.99",
+      price: "€999.99",
     },
   },
   {
@@ -62,8 +62,8 @@ export const headsets: Headset[] = [
     name: "Vive Pro 2",
     brand: "HTC",
     image: "https://placehold.co/500x300/1a1f2c/FFFFFF?text=HTC+Vive+Pro+2",
-    description: "Auricular VR de alta resolución para PC diseñado para uso profesional y empresarial.",
-    price: "$799.99",
+    description: "Gafas VR de alta resolución para PC diseñado para uso profesional y empresarial.",
+    price: "€799.99",
     featured: true,
     specs: {
       resolution: "2448 × 2448 por ojo",
@@ -72,7 +72,7 @@ export const headsets: Headset[] = [
       weight: "850g",
       tracking: "Seguimiento SteamVR 2.0",
       controllers: "Controles Vive",
-      price: "$799.99",
+      price: "€799.99",
     },
   },
   {
@@ -80,8 +80,8 @@ export const headsets: Headset[] = [
     name: "PlayStation VR2",
     brand: "Sony",
     image: "https://placehold.co/500x300/1a1f2c/FFFFFF?text=PlayStation+VR2",
-    description: "Auricular VR de próxima generación diseñado exclusivamente para PlayStation 5.",
-    price: "$549.99",
+    description: "Gafas VR de próxima generación diseñado exclusivamente para PlayStation 5.",
+    price: "€549.99",
     featured: true,
     specs: {
       resolution: "2000 × 2040 por ojo",
@@ -90,7 +90,7 @@ export const headsets: Headset[] = [
       weight: "560g",
       tracking: "Inside-out, 6DoF",
       controllers: "Controles PSVR 2 Sense",
-      price: "$549.99",
+      price: "€549.99",
     },
   },
   {
@@ -98,8 +98,8 @@ export const headsets: Headset[] = [
     name: "Reverb G2",
     brand: "HP",
     image: "https://placehold.co/500x300/1a1f2c/FFFFFF?text=HP+Reverb+G2",
-    description: "Auricular Windows Mixed Reality de alta resolución con audio espacial.",
-    price: "$599.99",
+    description: "Gafas Windows Mixed Reality de alta resolución con audio espacial.",
+    price: "€599.99",
     specs: {
       resolution: "2160 × 2160 por ojo",
       refreshRate: "90Hz",
@@ -107,7 +107,7 @@ export const headsets: Headset[] = [
       weight: "550g",
       tracking: "Inside-out, 6DoF",
       controllers: "Controles de Movimiento HP",
-      price: "$599.99",
+      price: "€599.99",
     },
   },
   {
@@ -115,8 +115,8 @@ export const headsets: Headset[] = [
     name: "Pimax Crystal",
     brand: "Pimax",
     image: "https://placehold.co/500x300/1a1f2c/FFFFFF?text=Pimax+Crystal",
-    description: "Auricular VR con campo de visión ultraamplio y pantallas de alta resolución.",
-    price: "$1,899.99",
+    description: "Gafas VR con campo de visión ultraamplio y pantallas de alta resolución.",
+    price: "€1,899.99",
     specs: {
       resolution: "2880 × 2880 por ojo",
       refreshRate: "90Hz - 120Hz",
@@ -124,7 +124,7 @@ export const headsets: Headset[] = [
       weight: "960g",
       tracking: "Seguimiento SteamVR 2.0",
       controllers: "Controles Pimax Sword",
-      price: "$1,899.99",
+      price: "€1,899.99",
     },
   },
 ];

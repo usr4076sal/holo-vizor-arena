@@ -11,10 +11,10 @@ export function ThemeToggle() {
       variant="ghost" 
       size="icon" 
       onClick={toggleTheme}
-      className="rounded-full h-9 w-9 transition-all hover:bg-secondary/20"
+      className="rounded-full h-9 w-9 transition-all hover:bg-gradient-to-br from-primary/20 to-secondary/20"
     >
       {theme === 'dark' ? (
-        <Sun className="h-5 w-5 text-secondary" />
+        <Sun className="h-5 w-5 text-secondary animate-pulse" />
       ) : (
         <Moon className="h-5 w-5 text-primary" />
       )}

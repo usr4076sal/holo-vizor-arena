@@ -18,6 +18,7 @@ export type Headset = {
   price: string;
   featured?: boolean;
   specs: HeadsetSpec;
+  officialWebsite?: string;
 };
 
 export const headsets: Headset[] = [
@@ -38,6 +39,7 @@ export const headsets: Headset[] = [
       controllers: "Controles Touch Plus",
       price: "€499.99",
     },
+    officialWebsite: "",
   },
   {
     id: "index",
@@ -56,6 +58,7 @@ export const headsets: Headset[] = [
       controllers: "Controles Index Knuckle",
       price: "€999.99",
     },
+    officialWebsite: "",
   },
   {
     id: "vive-pro-2",
@@ -74,6 +77,7 @@ export const headsets: Headset[] = [
       controllers: "Controles Vive",
       price: "€799.99",
     },
+    officialWebsite: "",
   },
   {
     id: "psvr-2",
@@ -92,6 +96,7 @@ export const headsets: Headset[] = [
       controllers: "Controles PSVR 2 Sense",
       price: "€549.99",
     },
+    officialWebsite: "",
   },
   {
     id: "reverb-g2",
@@ -109,6 +114,7 @@ export const headsets: Headset[] = [
       controllers: "Controles de Movimiento HP",
       price: "€599.99",
     },
+    officialWebsite: "",
   },
   {
     id: "pimax-crystal",
@@ -126,5 +132,6 @@ export const headsets: Headset[] = [
       controllers: "Controles Pimax Sword",
       price: "€1,899.99",
     },
+    officialWebsite: "",
   },
 ];

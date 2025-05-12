@@ -43,10 +43,10 @@ export function HeadsetCard({ headset, featured = false }: HeadsetCardProps) {
           </Link>
         </Button>
         
-        {/* Enlace al sitio web oficial específico para cada gafa */}
+        {/* Enlace al sitio web oficial para cada gafa */}
         <a 
-          href={`#${headset.id}-official-website`} 
-          className="text-sm text-secondary flex items-center justify-center gap-1 hover:underline"
+          href={headset.officialWebsite || "#"} 
+          className={`text-sm text-secondary flex items-center justify-center gap-1 hover:underline ${!headset.officialWebsite ? 'opacity-50 cursor-not-allowed' : ''}`}
           target="_blank"
           rel="noopener noreferrer"
         >

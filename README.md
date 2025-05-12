@@ -2,7 +2,7 @@
 
 ## Info proyecto
 
-**URL para ver la página**: https://lovable.dev/projects/11ef47e7-3d3a-4ca8-967c-e66502b66620
+**URL para ver la página**: https://holo-vizor-arena.lovable.app/
 
 En ella hay una página principal en la que se presenta de que va la página junto con los modelos de gafas virtaules más conocidos.
 En la segunda página se pueden comparar varias gafas segun las especificaciones.
